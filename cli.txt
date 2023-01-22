@@ -1,0 +1,21 @@
+1. npx create-react-app ./
+2. npm i @tailwindcss/line-clamp
+3. npm i axios
+4. npm i js-abbreviation-number
+5. npm i react-player
+6. npm i moment
+ ***** in short <npm i @tailwindcss/line-clamp axios js-abbreviation-number react-player moment>
+7. npm i -D tailwindcss
+8. npx tailwindcss init
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [require('@tailwindcss/line-clamp')],
+}
+
+9. npm i react-router-dom react-icons
+10. npm i dotenv
+11. npm install tailwind-scrollbar-hide
